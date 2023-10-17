@@ -1,0 +1,28 @@
+{
+    "meals": [
+      {
+        "id": 1,
+        "day": "Sunday",
+        "mealtime": "Breakfast",
+        "food": "Slice of lemon loaf and tea",
+        "image": "https://www.justsotasty.com/wp-content/uploads/2016/01/Lemon-Loaf-3-1.jpg",
+        "liked": true
+      },
+      {
+        "id": 2,
+        "day": "Sunday",
+        "mealtime": "Lunch",
+        "food": "Quinoa Salad",
+        "image": "https://peasandcrayons.com/wp-content/uploads/2019/09/quinoa-spinach-salad-tomatoes-feta-recipe-3.jpg",
+        "liked": true
+      },
+      {
+        "id": 3,
+        "day": "Sunday",
+        "mealtime": "Snack",
+        "food": "One mochi",
+        "image": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fhanamarumart.us%2Fproducts%2Fdaifuku-mochi-yomogi-fzn&psig=AOvVaw26S9TXpnJN9oPZ44joiUXJ&ust=1696186377728000&source=images&cd=vfe&opi=89978449&ved=0CBAQjRxqFwoTCKjXueWA04EDFQAAAAAdAAAAABA4",
+        "liked": true
+      }
+    ]
+  }
