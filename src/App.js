@@ -3,6 +3,7 @@ import './App.css';
 import Home from "./components/Home.js"
 import About from "./components/About.js"
 import NavBar from "./components/NavBar.js"
+import MealForm from "./components/MealForm.js"
 import {React, useState} from "react"
 import {
   BrowserRouter,
@@ -21,6 +22,8 @@ function App() {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<About />} />
+        <Route path="/mealform" element={<MealForm />} />
+
       </Routes>
     </BrowserRouter>
   );
