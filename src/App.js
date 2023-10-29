@@ -25,7 +25,7 @@ function App() {
     })
   }, []);
 
-  console.log("All done? ", meals)
+  //console.log("All done? ", meals)
 
   return (
     <BrowserRouter>
