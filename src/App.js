@@ -13,15 +13,19 @@ import {
 } from "react-router-dom";
 
 function App() {
-  const [meals, setMeals] = useState([["apple"], ["berry"], ["caramel"], ["tea"]]);
+  //["apple"], ["berry"], ["caramel"], ["tea"]
+  const [meals, setMeals] = useState([]);
 
   useEffect(()=> {
     fetch("http://localhost:3000/meals")
     .then((r)=> r.json())
     .then((mealData) => {
+      //console.log(mealData);
       setMeals(mealData);
     })
   }, []);
+
+  console.log("All done? ", meals)
 
   return (
     <BrowserRouter>

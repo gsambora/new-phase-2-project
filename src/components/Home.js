@@ -12,7 +12,7 @@ function Home({meals}){
                 meals.map((meal)=>{
                     console.log(meal)
                     return(<MealCard key={meal.id} id={meal.id} mealtime={meal.mealtime}
-                        food={meal.food} image={meal.image} liked={food.liked} />)
+                        food={meal.food} image={meal.image} liked={meal.liked} />)
                 })
             }</ul>
         </div>
