@@ -2,7 +2,6 @@ import React from "react";
 import MealCard from "./MealCard.js";
 
 function Home({meals}){
-    //console.log("All Meals: "+meals);
 
     return(
         <div>
@@ -11,7 +10,7 @@ function Home({meals}){
             <ul className="allMealCards">{
                 meals.map((meal)=>{
                     //console.log(meal)
-                    return(<MealCard key={meal.id} id={meal.id} mealtime={meal.mealtime}
+                    return(<MealCard key={meal.id} id={meal.id} day={meal.day} mealtime={meal.mealtime}
                         food={meal.food} image={meal.image} liked={meal.liked} />)
                 })
             }</ul>

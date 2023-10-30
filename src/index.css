@@ -13,7 +13,7 @@ code {
 }
 
 .card img{
-  height: 350px;
+  width: 15rem;
   justify-self: center;
 }
 
@@ -29,6 +29,7 @@ code {
 
 .btn {
   width:5rem;
+  height:2rem;
   justify-self: center; 
   background-color:lavenderblush;
 }
