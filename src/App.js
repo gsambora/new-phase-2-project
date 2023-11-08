@@ -33,7 +33,7 @@ function App() {
 
   return (
     <BrowserRouter>
-      <NavBar />
+      <NavBar className={"navBar"}/>
 
       <Routes>
         <Route path="/" element={<Home meals={meals}/>} />

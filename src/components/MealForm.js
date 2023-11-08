@@ -27,7 +27,7 @@ function MealForm({handleNewMeal}){
     
       return (
         <form className="mealinfo" onSubmit={handleSubmit}>
-          <h2>New Meal</h2>
+          <h1>New Meal</h1>
         
           <select name="day">
             <option>Sunday</option>
