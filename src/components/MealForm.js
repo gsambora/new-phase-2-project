@@ -1,9 +1,28 @@
 import React from "react";
 
-function MealForm(){
+function MealForm({handleNewMeal}){
     function handleSubmit(e) {
         e.preventDefault();
         console.log("submitted");
+        console.log(e.target.day.value)
+
+        fetch("http://localhost:3000/meals",{
+          method: "POST",
+          headers:{
+            "Content-Type": "application/json"
+          },
+          body: JSON.stringify({
+            day: e.target.day.value,
+            mealtime: e.target.mealtime.value,
+            food: e.target.desc.value,
+            image: e.target.pic.value,
+            liked: false
+          })
+        })
+        .then((r)=>r.json())
+        .then((newMeal)=>handleNewMeal(newMeal));
+
+        e.target.reset()
       }
     
       return (
@@ -27,8 +46,8 @@ function MealForm(){
             <option>Snack</option>
           </select>
 
-          <input type="text" id="desc" placeholder="Food eaten"/>
-          <input type="text" id="pic" placeholder="Add a picture" />
+          <input type="text" name="desc" placeholder="Food eaten"/>
+          <input type="text" name="pic" placeholder="Add a picture" />
           
           <button type="submit">Done Eating!</button>
         </form>

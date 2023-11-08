@@ -25,6 +25,10 @@ function App() {
     })
   }, []);
 
+  function handleNewMeal(newMeal){
+    setMeals([...meals, newMeal]);
+  }
+
   //console.log("All done? ", meals)
 
   return (
@@ -34,7 +38,7 @@ function App() {
       <Routes>
         <Route path="/" element={<Home meals={meals}/>} />
         <Route path="/about" element={<About />} />
-        <Route path="/mealform" element={<MealForm />} />
+        <Route path="/mealform" element={<MealForm handleNewMeal={handleNewMeal}/>} />
 
       </Routes>
     </BrowserRouter>
