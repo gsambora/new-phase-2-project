@@ -1,10 +1,14 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 function MealForm({handleNewMeal}){
     function handleSubmit(e) {
         e.preventDefault();
         console.log("submitted");
         console.log(e.target.day.value)
+
+        const imgLink= e.target.pic.value == "" ? "https://preview.redd.it/7zdwq4rv6ma91.png?width=640&crop=smart&auto=webp&s=3abbfac771b1cbdcd1a027b83d3b94d656f00a66"
+        : e.target.pic.value ;
 
         fetch("http://localhost:3000/meals",{
           method: "POST",
@@ -15,7 +19,7 @@ function MealForm({handleNewMeal}){
             day: e.target.day.value,
             mealtime: e.target.mealtime.value,
             food: e.target.desc.value,
-            image: e.target.pic.value,
+            image: imgLink,
             liked: false
           })
         })

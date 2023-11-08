@@ -39,6 +39,30 @@
       "image": "https://i0.wp.com/www.gluten-gourmet.com/wp-content/uploads/2016/05/119.jpg",
       "liked": false,
       "id": 5
+    },
+    {
+      "day": "Wednesday",
+      "mealtime": "Dinner",
+      "food": "Grilled cheese",
+      "image": "https://preview.redd.it/7zdwq4rv6ma91.png?width=640&crop=smart&auto=webp&s=3abbfac771b1cbdcd1a027b83d3b94d656f00a66",
+      "liked": false,
+      "id": 6
+    },
+    {
+      "day": "Thursday",
+      "mealtime": "Breakfast",
+      "food": "Oatmeal",
+      "image": "https://fitfoodiefinds.com/wp-content/uploads/2021/01/ip-oatmealsq-1024x1024.jpg",
+      "liked": false,
+      "id": 7
+    },
+    {
+      "day": "Wednesday",
+      "mealtime": "Lunch",
+      "food": "Chicken tacos",
+      "image": "https://preview.redd.it/7zdwq4rv6ma91.png?width=640&crop=smart&auto=webp&s=3abbfac771b1cbdcd1a027b83d3b94d656f00a66",
+      "liked": false,
+      "id": 8
     }
   ]
 }
