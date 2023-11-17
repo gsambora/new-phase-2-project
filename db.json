@@ -22,14 +22,14 @@
       "mealtime": "Snack",
       "food": "One mochi",
       "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Daifuku_1.jpg/1200px-Daifuku_1.jpg",
-      "liked": true
+      "liked": false
     },
     {
       "day": "Tuesday",
       "mealtime": "Breakfast",
       "food": "Avocado and hashbrowns",
       "image": "https://i.pinimg.com/originals/a0/f6/75/a0f675465e280837c9f1180d10ed0459.jpg",
-      "liked": false,
+      "liked": true,
       "id": 4
     },
     {
@@ -53,7 +53,7 @@
       "mealtime": "Breakfast",
       "food": "Oatmeal",
       "image": "https://fitfoodiefinds.com/wp-content/uploads/2021/01/ip-oatmealsq-1024x1024.jpg",
-      "liked": false,
+      "liked": true,
       "id": 7
     },
     {
@@ -71,6 +71,14 @@
       "image": "https://preview.redd.it/7zdwq4rv6ma91.png?width=640&crop=smart&auto=webp&s=3abbfac771b1cbdcd1a027b83d3b94d656f00a66",
       "liked": false,
       "id": 9
+    },
+    {
+      "day": "Thursday",
+      "mealtime": "Snack",
+      "food": "Granola bar ",
+      "image": "https://target.scene7.com/is/image/Target/GUEST_20ddae99-7777-4270-b2ec-aa9a7bc822d6?wid=488&hei=488&fmt=pjpeg",
+      "liked": true,
+      "id": 10
     }
   ]
 }
